@@ -1,0 +1,34 @@
+body {background-color: ##B0E0E6} /*Применим цвет фона сайта*/
+a {
+	text-decoration: none;
+	color: black;
+} /*Изменили цвет текста внутри a*/
+p { color: #C71585; } /*Задаём цвет текста, который находится внутри p */
+h1,h2 { color: #4682B4; } /*Изменим цвет заголовков 1 и 2*/
+h1 ~ p { text-indent: 20px; } /*Создаём абзац для каждой строки*/
+p  {
+    color: black pink;
+    font-family: verdana;
+    font-size: 100%;
+} /*Меняем шрифт*/
+h1 {
+    color: #4682B4;
+    font-family: verdana;
+    font-size: 300%;
+}
+#b01 {
+    color: #800080;
+    font-size: 130%; /*Атрибут ID*/
+}
+h2 {text-decoration:overline;
+} /*Декорация текста 2-го заголовка*/
+h1.one 
+{
+border-style:solid;
+border-width:medium; /*Границы с 4-х сторон*/
+}
+p:first-letter 
+{
+color:#800080;
+font-size:xx-large; /*Первая буква строки особенная(псевдоэлемент css)*/
+}
